@@ -1,7 +1,7 @@
 # UE4-DAReplicationGraphExample
 An example project of how to use the ReplicationGraph in Unreal Engine. Also a template version of my ReplicationGraph is provided so you can use that in your project and create a child class from it.
 
-Video tutorial can be found here:
+Video tutorial can be found here: https://www.youtube.com/watch?v=7P11RwKfuEM
 
 
 Also other useful docs:
