@@ -4,7 +4,7 @@ An example project of how to use the ReplicationGraph in Unreal Engine. Also a t
 Video tutorial can be found here:
 
 
-Also other docs useful:
+Also other useful docs:
 
 Wiki Docs: https://docs.unrealengine.com/en-US/Engine/Networking/ReplicationGraph
 
