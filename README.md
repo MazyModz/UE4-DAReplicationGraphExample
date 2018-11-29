@@ -14,4 +14,5 @@ Epic Livestream: https://www.youtube.com/watch?v=CDnNAAzgltw
 
 
 
-Template for your games can also be found here:
+Template for your games can also be found in the
+root folder (DA RepGraph Template)
