@@ -86,16 +86,16 @@ public:
      * 
      * Should return a list of all classes that were explicitly set 
      */
-    virtual void InitExplicitlySetClasses(TArray<UClass*>& ExplicitlySetClasses) PURE_VIRTUAL(UDAReplicationGraph::InitExplicitlySetClasses(ExplicitlySetClasses),);
+    virtual void InitExplicitlySetClasses(TArray<UClass*>& ExplicitlySetClasses);
 
     /** Handles static event binding for I.E. adding something to a dependant actor list */
-    virtual void AssignStaticEvents() PURE_VIRTUAL(UDAReplicationGraph::AssignStaticEvents(),);
+    virtual void AssignStaticEvents();
 
     /**
      * Here we set the rules for different actor classes and how they should route.
      * Use the SetClassRule() function.  
      */
-    virtual void InitClassRules() PURE_VIRTUAL(UDAReplicationGraph::InitClassRules(),);
+    virtual void InitClassRules();
 
 
 
