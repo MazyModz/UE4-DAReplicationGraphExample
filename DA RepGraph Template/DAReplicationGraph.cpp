@@ -39,7 +39,7 @@ UDAReplicationGraph::UDAReplicationGraph()
 /** Sets the culldistance and update frequency to a FClassReplicationInfo data structure */
 void InitClassReplicationInfo(FClassReplicationInfo& Info, UClass* Class, bool bSpatialize, float ServerMaxTickRate)
 {
-    check(Class != NUL);
+    check(Class != NULL);
     if(AActor* CDO = Cast<AActor>(Class->GetDefaultObject()))
     {
         if(bSpatialize == true)
@@ -84,7 +84,7 @@ void UDAReplicationGraph::ResetGameWorldState()
         for(UNetReplicationGraphConnection* Connection : ConnectionList)
         {
             for (UReplicationGraphNode* ConnectionNode : Connection->GetConnectionGraphNodes())
-			      {
+	    {
                 UDAReplicationGraphNode_AlwaysRelevant_ForConnection* RelevantNode = Cast<UDAReplicationGraphNode_AlwaysRelevant_ForConnection>(ConnectionNode);
                 if(RelevantNode != NULL)
                 {
