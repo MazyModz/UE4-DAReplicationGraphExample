@@ -95,9 +95,6 @@ protected:
 	void OnGameplayDebuggerOwnerChange(AGameplayDebuggerCategoryReplicator* Debugger, APlayerController* OldOwner);
 #endif
 
-	UFUNCTION()
-	void OnCharacterNewWeapon(class ADACharacter* Pawn, class ADAWeapon* NewWeapon, class ADAWeapon* OldWeapon);
-
 	FORCEINLINE bool IsSpatialized(EClassRepPolicy Mapping)
 	{
 		return Mapping >= EClassRepPolicy::Spatialize_Static;
