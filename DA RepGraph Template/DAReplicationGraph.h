@@ -58,7 +58,7 @@ class AGameplayDebuggerCategoryReplicator;
  * 
  */
 UCLASS(Transient, config=Engine)
-class UDAReplicationGraph : public ReplicationGraph
+class UDAReplicationGraph : public UReplicationGraph
 {
 public:
 
